@@ -1,46 +1,84 @@
-body { 
-    min-height: 100vh;
-    min-width: 50vh; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    background-color:hsl(217, 54%, 11%) ;
-    color:white;
-    font-family: 'Outfit', sans-serif;
-   }
-
-
-
-.body-card-img{
-
+body {
+  min-height: 100vh;
+  min-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
+table {
+  width: 100%;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
 }
 
-#body-card{
+main {
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 5%;
+  width: 300px;
+  padding: 20px;
 }
 
-#title{
+hr {
+  border-color: hsl(215, 51%, 70%);
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin: 20px 0px 15px 0px;
 }
 
-h3{
-    font-weight: 600;
-}
-p{
-    font-size: 18px;
-    font-weight: 300;
-    color:hsl(215, 51%, 70%);
-}
-
-main{
-    margin:auto;
-    background-color:  hsl(216, 50%, 16%);
-    border-radius: 5%;
-    width: 300px;
-    padding:20px;
-}
-
-.equilibrium-img{
-  border-radius: 5%;  
+.equilibrium-img {
+  border-radius: 5%;
   width: 300px;
 }
 
+.footer-card-img {
+  border: 0.1px solid;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 100%;
+  float: left;
+  width: 40px;
+  margin-right: 15px;
+}
+
+#footer-card {
+  display: flex;
+  align-items: center;
+}
+
+#ethereum-value {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+#clock-value {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.ethereum-img {
+  margin-right: 7px;
+}
+.clock-img {
+  margin-right: 7px;
+}
+
+.clock-td {
+  display: grid;
+  text-align: right;
+  justify-content: right;
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+}
