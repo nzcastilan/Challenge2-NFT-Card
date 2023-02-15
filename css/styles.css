@@ -1,0 +1,18 @@
+body { 
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color:hsl(217, 54%, 11%) ;
+   }
+
+main{
+    background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium-img{
+    width: 60%;
+    padding: 2rem;
+
+}
